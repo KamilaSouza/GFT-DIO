@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        System.out.println("Insert three grades: ");
         double nota1 = input.nextDouble();
         double nota2 = input.nextDouble();
         double nota3 = input.nextDouble();
