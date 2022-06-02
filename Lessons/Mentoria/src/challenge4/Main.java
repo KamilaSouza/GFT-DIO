@@ -47,7 +47,7 @@ public class Main {
                         System.out.println("You got " + number1 + "-" + number2 + ", sum: 7, you lose!");
                         break;
                     } else if (sum == point) {
-                        System.out.println("You won! You got " + sum + ", the same number of your point: " + point + ".");
+                        System.out.println("You won! You got " + number1 + "-" + number2 + ", sum: " + sum + " the same number of your point: " + point + ".");
                         break;
                     } else {
                         System.out.println("You got " + number1 + "-" + number2 + ", sum: " + (number1 + number2) + ".");
