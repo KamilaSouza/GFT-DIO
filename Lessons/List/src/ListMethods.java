@@ -7,6 +7,7 @@ public class ListMethods {
     public static void main(String[] args) {
 
         System.out.println("Create a list and add 4 items.");
+        // Set<Double> grades = new HashSet<>(); don't allow duplicated items, random sequence
         List<Double> grades = new ArrayList<>();
         grades.add(7.0);
         grades.add(4.5);

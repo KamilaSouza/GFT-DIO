@@ -2,7 +2,6 @@ package ordenation;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -26,7 +25,7 @@ public class Main {
         System.out.println(catList);
 
         System.out.println("Cat list in age sequence");
-     //   Collections.sort(catList, new AgeComparator());
+        //   Collections.sort(catList, new AgeComparator());
         catList.sort(new AgeComparator());
         System.out.println(catList);
 
